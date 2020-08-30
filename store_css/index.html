@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <img src="medias/logo.png" alt="Logo Hero">
+        </div>
+        <div class="nav">
+        <nav class="topNav" id="myNav">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Journal</a>
+            <a href="#">More</a>
+            <a href="javascript:void(0)" class="burger_nav" onclick="myFonction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        </div>
+        <div class="myCart">
+            <a href="#">My Cart(2)</a>
+        </div>
+    </header>
+    <section class="content_banner">
+        <div class="banner">
+            <img src="medias/plates-header.jpg" alt="">
+        </div>
+        <div class="desc_banner">
+            <div class="content_text">
+            <h1>Plates</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum obcaecati error, architecto quae eaque
+                animi perspiciatis iusto commodi quas omnis corporis. Nihil dicta autem necessitatibus ullam, similique
+                praesentium eligendi saepe.</p>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="item">
+            <div class="img_content">
+                <img src="medias/blue-stripe-stoneware-plate.jpg" alt="blue stripe stoneware plate">
+            </div>
+            <div class="item_desc">
+                <h5>Kiriko</h5>
+                <p>blue stripe stoneware plate</p>
+                <h6>$40.00</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img_content">
+                <img src="medias/hand-painted-blue-flat-dish.jpg" alt="hand painted blue flat dish">
+            </div>
+            <div class="item_desc">
+                <h5>Kiriko</h5>
+                <p>hand painted blue flat dish</p>
+                <h6>$28.00</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img_content">
+                <img src="medias/heme.jpg" alt="heme">
+            </div>
+            <div class="item_desc">
+                <h5>Dust & Form</h5>
+                <p>heme</p>
+                <h6>$52.00</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img_content">
+                <img src="medias/mashiko-yaki-green-small-plate.jpg" alt="mashiko yaki green small plate">
+            </div>
+            <div class="item_desc">
+                <h5>Kiriko</h5>
+                <p>mashiko yaki green small plate</p>
+                <h6>$18.00</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img_content">
+                <img src="medias/mashiko-yaki-indigo-small-plate.jpg" alt="mashiko yaki indigo small plate">
+            </div>
+            <div class="item_desc">
+                <h5>Kiriko</h5>
+                <p>mashiko yaki indigo small plate</p>
+                <h6>$28.00</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img_content">
+                <img src="medias/mashiko-yaki-saucer.jpg" alt="mashiko yaki saucer">
+            </div>
+            <div class="item_desc">
+                <h5>Kiriko</h5>
+                <p>mashiko yaki saucer</p>
+                <h6>$18.00</h6>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myNav");
+          if (x.className === "nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav";
+          }
+        }
+    </script>
+
+</body>
+
+</html>
